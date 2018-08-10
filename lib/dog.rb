@@ -7,7 +7,7 @@ class Dog
     @sit = sit
   end 
 end 
-  bark = Dog.new('Woof!')
+  bark = Dog.new("Woof!")
     puts bark
   sit = Dog.new("The Dog is sitting")
     puts sit 
