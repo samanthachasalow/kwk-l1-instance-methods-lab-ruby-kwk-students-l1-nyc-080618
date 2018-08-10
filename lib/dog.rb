@@ -1,13 +1,9 @@
 # dog.rb
 class Dog 
-  def initialize(bark)
-    @bark = bark
+ def bark
+   puts "Woof!"
   end
-  def initialize(sit)
-    @sit = sit
-  end 
+  def sit 
+    puts "The Dog is sitting"
+  end
 end 
-  bark = Dog.new("Woof!")
-    puts bark
-  sit = Dog.new("The Dog is sitting")
-    puts sit 
