@@ -3,5 +3,6 @@ class Dog
   
 end 
   bark = Dog.new('Woof!')
-    puts 
+    puts bark
   sit = Dog.new("The Dog is sitting")
+    puts sit 
